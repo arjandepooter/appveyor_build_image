@@ -1,0 +1,9 @@
+image: Ubuntu
+
+environment:
+  APPVEYOR_BAKE_IMAGE: flutter-stuff
+
+install:
+  - sh: |
+      touch $HOME/foo
+      echo bar > $HOME/foo
